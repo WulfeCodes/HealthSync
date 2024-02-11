@@ -6,15 +6,21 @@ The healthcare sector stands as one of the most vital industries globally, taske
 We allow doctors to efficiently manage their patients by adding them to the system and overseeing their progress. Patients receive login credentials via email, granting them access to their personalized dashboard.
 
 ## Personalized Patient Interaction
-Patients are greeted by an AI Avatar, powered by Azure Text-To-Speech Service. This 2D photorealistic avatar engages with patients, posing relevant questions based on their initial diagnosis. By utilizing Azure AI Communication and Speech services, patients can communicate via text or speech, enhancing accessibility.
+Patients are greeted by an AI Avatar, powered by Azure Text-To-Speech Service. This 2D photorealistic avatar engages with patients, posing relevant questions based on their initial diagnosis. By utilizing Azure AI Communication and Speech services, patients can communicate via text or speech, enhancing accessibility.<br>
+![image](https://github.com/pramitbhatia25/hackalytics-2024/assets/109458161/f02607a1-8a15-44a1-9200-abe03d915b26)
+
 
 ## Continuous Monitoring and Assessment
 The chatbot tracks patients' well-being and mental health by periodically prompting them with inquiries tailored to their condition. Automation scripts ensure the seamless execution of these interactions and data collection processes.
 
 ## Data-driven Insights
 Patient communication is parsed daily and analyzed, with essential information extracted and stored in the database. EDA techniques are applied to derive meaningful insights, empowering doctors with valuable information to make informed decisions.
+![image](https://github.com/pramitbhatia25/hackalytics-2024/assets/109458161/6a5912b5-f47e-4174-9944-c07055a615f9)
+
 
 ## Mental Health Assessment
 Leveraging ML techniques, a logistic regression model was trained. This model calculates a mental health score based on five different factors, enabling doctors to quantitatively monitor patients' mental well-being over time.
+![image](https://github.com/pramitbhatia25/hackalytics-2024/assets/109458161/e46d79d4-c8b3-47a1-bb9b-bda043ac93ac)
+
 
 TherapyAI represents a paradigm shift in healthcare delivery, harnessing the power of Gen-AI and ML to optimize the doctor-patient relationship.
