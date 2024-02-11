@@ -12,7 +12,7 @@ function Header(props) {
         <div className="navbar">
             <Link to="/" className="logo">
                 <div className="logo1">
-                    AID
+                    HealthSync
                 </div>
                 {/*
                 <div className="logo2">

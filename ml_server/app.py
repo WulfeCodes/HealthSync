@@ -14,7 +14,6 @@ from langchain_community.chat_models import ChatOpenAI
 from bson import ObjectId
 import constants
 
-os.environ["OPENAI_API_KEY"] = "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"
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})

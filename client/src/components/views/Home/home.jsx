@@ -32,7 +32,7 @@ function Home(props) {
 
                         </>}
                     </> : <>
-                        Therapy for the Digital Age
+                    Elevating Health, One Conversation at a Time
                     </>}
 
                     <div className="btns">
