@@ -1,6 +1,5 @@
 #HealthSync
-
-The healthcare sector stands as one of the most vital industries globally, tasked with delivering high-quality medical services every day. However, it faces numerous obstacles, including overwhelmed healthcare professionals and  inadequate medical resources. The TherapyAI platform revolutionizes healthcare delivery by integrating Gen-AI and ML to automate the process of daily medical data collection, analysis, and patient interaction. Here's how:
+The healthcare sector stands as one of the most vital industries globally, tasked with delivering high-quality medical services every day. However, it faces numerous obstacles, including overwhelmed healthcare professionals and inadequate medical resources. The TherapyAI platform revolutionizes healthcare delivery by integrating Gen-AI and ML to automate the process of daily medical data collection, analysis, and patient interaction. Here's how:
 
 ##Streamlined Patient Management
 We allow doctors to efficiently manage their patients by adding them to the system and overseeing their progress. Patients receive login credentials via email, granting them access to their personalized dashboard.
