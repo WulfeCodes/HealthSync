@@ -4,7 +4,7 @@ import pytz
 from bson import ObjectId
 from datetime import datetime, timedelta
 
-from MongoDB_setup.mongo import update_chats_patient, retrieve_id, retrieve_notes
+from mongo import update_chats_patient, retrieve_id, retrieve_notes
 from openAI import question_generation
 # Updating Info 
 IDs: ObjectId = []
