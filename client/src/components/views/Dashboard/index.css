@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.page1 {
+  background-color: #eafbff;
+  height: fit-content;
+  min-height: 100vh;
+}
+
+.dashb {
+  padding-bottom: 10vh;
+}
+
+.dashboard_content {
+  padding-top: 10vh;
+  height: fit-content;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.dashboard_title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding: 0 5vw;
+}
+
+.dasboard_patients_appointments {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+}
+
+.dashboard_patients {
+  height: fit-content;
+  min-height: 50vh;
+  width: 64vw;
+  margin: 0 3vw;
+  padding: 5vh 5vw;
+
+  color: black;
+  font-family: "Open Sans";
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.col_chat_score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 33vw;
+}
+
+.dashboard_appointments {
+  height: fit-content;
+  min-height: 80vh;
+  width: 24vw;
+  margin: 0 3vw;
+  padding: 2vh 1vw;
+
+  color: black;
+  font-family: "Open Sans";
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard_patients_title {
+  height: 5vh;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.create_patient {
+  height: fit-content;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  width: fit-content;
+  background-color: #0bb8e4;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard_appointments_title {
+  height: 5vh;
+  margin-bottom: 5vh;
+  font-size: 18px;
+}
+
+.patient_table {
+  width: 100%;
+  height: fit-content;
+  min-height: 65vh;
+  border-collapse: collapse;
+  color: black;
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+th, td {
+  border: none;
+  font-family: "Open Sans";
+  font-weight: normal;
+  padding: 0 20px;
+}
+
+thead {
+  height: 10vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+
+  background-color: #eafbff;
+  color: black;
+  text-align: left;
+  font-size: 15px;
+}
+
+.openPatient {
+  background-color: #0bb8e4;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  width: 10vw;
+}
+
+tr {
+  text-align: left;
+}
+
+.patient_create {
+  height: 5vh;
+  padding: 0;
+  margin: 10px;
+  border: none;
+  outline: none;
+}
+
+.chat_form {
+  margin:0;
+}
+
+#patient_create_submit {
+  height: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  margin: 10px;
+  padding: 20px;
+}

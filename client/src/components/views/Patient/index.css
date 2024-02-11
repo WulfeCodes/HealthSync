@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.dashboard_content {
+  padding-top: 10vh;
+  height: fit-content;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.dashboard_title {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding: 0 5vw;
+}
+
+.patient_info {
+  width: 100vw;
+  display: flex;
+  flex-flow: row;
+}
+
+.first_2 {
+  height: 50vh;
+  width: 54vw;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+}
+
+.second_2 {
+  height: 55vh;
+  width: 54vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.patient_vitals {
+  height: fit-content;
+  min-height:45vh;
+  width: 54vw;
+  margin: 0 2%;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 5vh 5%;
+  flex-direction: column;
+}
+
+.patient_vitals_title {
+  color: black;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;  
+}
+
+.patient_vitals_content {
+  margin: 20px 0;
+  
+}
+.diff_patient_dash_active_amt {
+  height: 30vh;
+  margin: auto;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #0bb8e4;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;  
+}
+
+.patient_dash_active_amt {
+  height: 40vh;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #0bb8e4;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;  
+}
+
+.line_chart {
+  height:35vh;
+  width: 24vw;
+}
+
+.dash_amt {
+  height: 20vh;
+  width: fit-content;
+  min-width: 5vw;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anton';
+}
+
+.patient_dash {
+  height: fit-content;
+  min-height:50vh;
+  width: 56%;
+  margin: 0 2%;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+}
+
+.patient_notes {
+  height: fit-content;
+  min-height:50vh;
+  width: 26%;
+  margin: 0 2%;
+  padding: 0 5%;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.patient_notes_title {
+  color: black;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+
+.patient_notes_textarea {
+  width: 100%;
+  height:30vh;
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+.patient_notes_textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.patient_info_notes {
+  height: fit-content;
+  min-height: 110vh;
+  width: 54vw;
+  margin: 0 3vw;
+
+  color: black;
+  font-family: "Open Sans";
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard_chats {
+  height: fit-content;
+  min-height: 50vh;
+  width: 34vw;
+  margin: 0 3vw;
+  padding: 5vh 5vw;
+
+  color: black;
+  font-family: "Open Sans";
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard_patients_title {
+  height: 5vh;
+  margin-bottom: 5vh;
+  font-size: 18px;
+}
+
+.dashboard_appointments_title {
+  height: 5vh;
+  margin-bottom: 5vh;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+}
+
+
+.patient_dash_left {
+  width: 50%;
+  height: 50vh;
+  border-right: 1px solid #0bb8e4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 5%;
+  overflow: auto;
+}
+
+.patient_dash_title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.patient_dash_value {
+  font-size: 13px;
+}
+
+.patient_dash_right {
+  width: 40%;
+  height: 50vh;
+  border-left: 1px solid #0bb8e4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 5%;
+  overflow: auto;
+}
+
+.patient_notes_save {
+  background-color: #0bb8e4;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: 1px solid #0bb8e4;
+  font-weight: bold;
+}
+
+.patient_notes_save:hover {
+  background-color: #eafbff;
+  color: #0bb8e4;
+  border: 1px solid #0bb8e4;
+  font-weight: bold;
+}
+
+.patient_notes_save:active {
+  transform: translateY(3px);
+}
+
+.patient_vitals_doctor_summary {
+  height: 35vh;
+  width: 40vw;
+  padding: 3vh 1vw;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: auto
+}
+
+
+.line-chart-container {
+  height: 30vh;
+  width: 41vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.abc {
+  width: 16vw;
+  font-size: 20px;
+}

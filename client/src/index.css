@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    height: fit-content;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #333 #555;
+}
+
+/* Style the scrollbar thumb and track for all scrollable elements */
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+*::-webkit-scrollbar{
+    height: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #555;
+}
+
+.App {
+    height: fit-content;
+}

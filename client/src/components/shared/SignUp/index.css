@@ -1,0 +1,46 @@
+.create {
+  display: flex;
+  justify-content: center;
+
+}
+
+.create-content:before {
+  background: white;
+}
+
+.create-content {
+  color: black;
+  border: 10px solid white;
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  min-height: fit-content;
+  top: 10vh;
+  overflow: scroll;
+
+  .exit {
+    display: block;
+    width: 10%;
+    margin-left: 85%;
+    margin-top: 1%;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 1px solid red;   
+    border-radius: 10px;
+  }
+
+  text-align: center;
+  color: white;
+
+
+  .exit:hover {
+    cursor: pointer;
+  }
+
+
+}
+

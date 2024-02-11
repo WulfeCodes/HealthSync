@@ -1,0 +1,193 @@
+.patient_chats_analysis {
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.patChat {
+    border: 1px solid white;
+}
+
+.patient_chats_component {
+    height: 75vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh 3vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.patient_chats_chats {
+    padding: 2vh 2vw;
+    width: 26vw;
+    height: 46vh;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.patient_incoming_message, .patient_outgoing_message {
+    width: fit-content;
+    max-width: 80%;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 8px;
+    clear: both;
+}
+
+.patient_message {
+    font-size: 12px;
+    padding: 8px;
+    margin: 4px 0px;
+    border-radius: 8px;
+    clear: both;
+}
+
+.patient_incoming_message {
+    background-color: #e2e2e2;
+    float: left;
+}
+
+.patient_outgoing_message {
+    background-color: #0bb8e4;
+    color: #fff;
+    float: right;
+}
+
+.patient_send_message1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.patient_add_text_btn1 {
+    outline: none;
+    height: 7vh;
+    width: 75%;
+    padding: 2.5vh 0;
+    background-color: transparent;
+    resize: none;
+    border: none;
+}
+
+.patient_send_msg_btn1 {
+    background-color: #0bb8e4;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 10vh;
+    width: 40%;
+    margin: 1vh 5%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.patient_send_msg_btn_right1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 12vh;
+}
+
+.patient_send_msg_btn_right2 {
+    background-color: #0bb8e4;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 4vh;
+    width: 90%;
+    margin: 1vh 5%;
+    border-radius: 10px;
+}
+
+.extra {
+    color: #0bb8e4;
+    background-color: white;
+}
+
+.msg_btns1 {
+    width: 25%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.patient_add_text_btn {
+    outline: none;
+    border: none;
+    height: 12vh;
+    width: 50%;
+    padding: 0;
+    background-color: transparent;
+    resize: none;
+}
+
+.patient_add_text_btn:focus {
+    outline: none;
+    border: none;
+}
+
+.patient_send_msg_btn {
+    background-color: #0bb8e4;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 5vh;
+    width: 40%;
+}
+
+.select_tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 0 ;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid #0bb8e4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.select_tabs_ai {
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select_tabs_doc {
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selected_Respondent {
+    color: white;
+    background-color: #0bb8e4;
+}

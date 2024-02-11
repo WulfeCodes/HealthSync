@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.page1 {
+  height: 100vh;  
+  background-color: black;
+}
+
+.about_page {
+  height: 100vh;  
+  background-color: black;
+}
+
+html {
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+}
+
+.hero_title {
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton';
+  font-size: 35px;
+  flex-direction: column;
+  color: #0bb8e4;
+  margin-left: 5vw;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scale {
+  0%, 20%, 50%, 80%, 100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2)
+  }
+  60% {
+    transform: scale(1)
+  }
+}
+
+.btns {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn_link {
+  text-decoration: none;
+}
+
+.btn1 {
+  margin: 0 10px;
+  background: transparent;
+  border-radius: 7px;
+  color: #0bb8e4;
+  font-family: 'Anton';
+  border: 2px solid #0bb8e4;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.btn1:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.try_btn {
+  background-color: #0bb8e4;
+  color: #eafbff;
+}
+
+.main_content {
+  background-color: #eafbff;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: repeat ;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-blend-mode: multiply; /* You can use different blend modes for more advanced effects */
+}
+
+@media only screen and (max-width: 730px) {
+  .hero_title {
+    font-size: 30px;
+    align-items: center;
+    margin-left: 0;
+    text-align: center;
+    width: 70vw;
+  }
+  
+  .content {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn1 {
+    font-size: 10px;
+  }
+  
+}

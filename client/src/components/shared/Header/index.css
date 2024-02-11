@@ -1,0 +1,89 @@
+.navbar {
+    width: 95vw;
+    height: 10vh;
+    color: white;
+    background-color: #0bb8e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+    overflow-x: hidden;
+    position: absolute;
+    top:0;
+  }
+  
+  .logo {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  .logo1 {
+    font-family: 'Anton';
+    font-size: 32px;
+    color: white;
+    margin: 0 0px 0 0;
+  }
+    
+  .navs {
+    display: flex;
+  }
+  
+  .signup1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    margin: 0 15px;
+    border: 1px solid white;
+    background-color: #0bb8e4;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+    
+  .jobs1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: #0bb8e4;
+    color: white;
+    margin: 0 15px;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 10px;
+  }
+  
+  .account1 {
+    font-family: 'Anton';
+    font-size: 18px;
+    margin: 0 20px;
+    border: 1px solid #ffffff;
+    background-color: #0bb8e4;
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 5px;
+  }
+  
+  .hide_nav {
+    display: none;
+  }
+  
+  .jobs1:hover {
+    transform: scale(1.1);
+  }
+  
+  .signup1:hover {
+    transform: scale(1.1);
+  }
+  
+  .account1:hover {
+    transform: scale(1.1);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .jobs {
+    text-decoration: none;
+  }

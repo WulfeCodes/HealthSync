@@ -1,0 +1,30 @@
+.myAvatarDemoText {
+    font-size: larger;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.myAvatarContainer {
+    text-align: center;
+    height: 80vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myAvatarVideo {
+    height: fit-content;
+    width: fit-content;
+}
+
+.myVideoDiv {
+    height: 100%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10vh;
+} 
