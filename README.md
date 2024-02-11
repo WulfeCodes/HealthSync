@@ -26,10 +26,10 @@ Leveraging ML techniques, a logistic regression model was trained. This model ca
 TherapyAI represents a paradigm shift in healthcare delivery, harnessing the power of Gen-AI and ML to optimize the doctor-patient relationship.
 
 ## Tech Stack
--> Python 
--> Flask
--> React, Node, Express
--> Azure TTS Ai Avatar
--> Pandas, SKLearn, R
--> OpenAI, LangChain
--> MongoDB
+-> Python <BR>
+-> Flask <BR>
+-> React, Node, Express <BR>
+-> Azure TTS Ai Avatar <BR>
+-> Pandas, SKLearn, R <BR>
+-> OpenAI, LangChain <BR>
+-> MongoDB <BR>
